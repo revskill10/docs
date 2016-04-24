@@ -47,7 +47,7 @@ Spinach features
 
 **What is BDD?**
 - unit tests (TDD) describe and test code itself
-- features (TDD) describe behavior and test if the app does what its supposed to do
+- features (BDD) describe behavior and test if the app does what its supposed to do
 
 **In general**
 
