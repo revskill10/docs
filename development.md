@@ -11,6 +11,7 @@ General flow
 ------------
 
 - Task is usually taken from Trello (PM tool) or LightHouse (issue tracker) or Sentry (exception tracker).
+- When there doesn't exist a Github issue, you should create it and mention original task (T-XX, LH-XX, S-XX where XX is ID in source system)
 - Code is commited via git to Github.
 - When merged to master ( = accepted), code goes to continuous integration server (CircleCI) and if tests are ok, is deployed do staging server.
 
@@ -40,7 +41,8 @@ Github
 1. Before you send code to Github, rebase against master
 2. After you send code to Github, keep branch mergable by merging master in there (rebase-forcepush is allowed as well if you are the only person working in that branch)
 3. When the task is about a visual improvement, attach a screenshot of the result
-4. When the task is about a flow (= you need to click at least once), attach a video of result 
+4. When the task is about a flow (= you need to click at least once), attach a video of result
+5. In PR description ALWAYS mention Github Issue like https://help.github.com/articles/closing-issues-via-commit-messages/
 
 Spinach features
 ----------------
