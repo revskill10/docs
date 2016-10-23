@@ -67,3 +67,4 @@ One should know following:
     - [Try Ruby](http://tryruby.org)
     - [RailsTutorial](http://railstutorial.org)
     - [AWDWR](https://pragprog.com/book/rails5/agile-web-development-with-rails-5)
+    - [Railscast](http://railscasts.com)
