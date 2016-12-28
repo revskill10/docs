@@ -14,7 +14,6 @@ Closes  #
 - [ ] Spinach feature
 - [ ] Manually on localhost
 - [ ] Manually on Staging environment
-- [ ] Manually on Production environment
 - [ ] Manually on DEV environment (if applicable)
 
 <!--- Please describe in detail how you tested your changes. -->
