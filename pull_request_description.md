@@ -17,7 +17,7 @@ Closes  #
 - [ ] Spinach feature
 - [ ] Manually on localhost
 - [ ] Manually on Staging environment
-- [ ] Manually on DEV environment (if applicable)
+- [ ] Manually on DEV / UAT environment (if applicable)
 
 ## Screenshots
 
