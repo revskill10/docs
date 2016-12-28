@@ -10,9 +10,12 @@ Closes  #
 <!--- Please link to the issue here: -->
 
 ## How Has This Been Tested?
-- [ ] unit test
-- [ ] spinach feature
-- [ ] manually on localhost
+- [ ] Unit tests
+- [ ] Spinach feature
+- [ ] Manually on localhost
+- [ ] Manually on Staging environment
+- [ ] Manually on Production environment
+- [ ] Manually on DEV environment (if applicable)
 
 <!--- Please describe in detail how you tested your changes. -->
 <!--- Include details of your testing environment, and the tests you ran to -->
@@ -32,9 +35,10 @@ Closes  #
 ## Checklist:
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
 <!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->
-- [ ] My change requires a change to the documentation so I updated it accordingly.
+- [ ] My change requires a change to the documentation so I updated it accordingly (README, etc).
+- [ ] My change requires a change to the config files so I updated example config files accordingly.
 - [ ] I have added unit tests to cover my changes.
-- [ ] This change affects the way user uses UI, so I added spinach feature to cover that.
+- [ ] This change affects the way user uses UI, so I added Spinach feature to cover that.
 - [ ] All new and existing tests passed.
-- [ ] HoundCI is happy.
+- [ ] HoundCI is happy or exceptions has been approved.
 - [ ] I have a code review from another team member.
