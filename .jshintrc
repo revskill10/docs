@@ -1,0 +1,18 @@
+{
+  "bitwise": true,
+  "curly": true,
+  "eqeqeq": true,
+  "forin": true,
+  "freeze": true,
+  "latedef": "nofunc",
+  "nonbsp": true,
+  "strict": "global",
+  "undef": true,
+  "unused": true,
+  "debug": true,
+  "plusplus": true,
+  "validthis": true,
+  "browser": true,
+  "devel": true,
+  "jquery": true
+}
