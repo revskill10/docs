@@ -1,0 +1,64 @@
+---
+rules:
+  # POSSIBLE ERROR RULES
+  no-console: off # !!!SET THIS TO error FOR PROD CODE!!! Disallow the use of console methods
+  no-debugger: off # !!!SET THIS TO error FOR PROD CODE!!! Disallow the use of debugger statement
+  no-alert: off # !!!SET THIS TO error FOR PROD CODE!!! Disallow the use of alert, confirm, and prompt
+  env: # SET ENVIRONMENT GLOBAL VARIABLES ONLY AS NEEDED, e.g. DELETE node ENV from projects not using Node.js
+    browser: false # Allow global js variables used in browsers (e.g. document, window, etc.)
+    node: false # Allow global js variables used in node.js
+    jquery: false # Allow global js variables used in jQuery (e.g. $)
+  no-cond-assign: error # Disallow assignment operators in conditional expressions
+  no-constant-condition: error # Disallow constant expressions in conditions
+  no-control-regex: warning # Disallow control characters in regular expressions
+  no-dupe-args: error # Disallow duplicate arguments in function definitions
+  no-dupe-keys: error # Disallow duplicate keys in object literals
+  no-duplicate-case: error # Disallow duplicate case labels
+  no-empty: error # Disallow empty block statements
+  no-empty-character-class: error # Disallow empty character classes in regular expressions
+  no-ex-assign: error # Disallow reassigning exceptions in catch clauses
+  no-extra-boolean-cast: error # Disallow unnecessary boolean casts
+  no-extra-parens: error # Disallow unnecessary parentheses
+  no-extra-semi: error # Disallow unnecessary parentheses
+  no-func-assign: error # Disallow reassigning function declarations
+  no-inner-declarations: # Disallow variable and function declarations in nested blocks
+    - error
+    - "both"
+  no-invalid-regex: error # Disallow invalid regular expression strings in RegExp constructors
+  no-irregular-whitespace: #  Disallow irregular whitespace outside of strings and comments
+    - error
+    - skipStrings: true
+    - skipComments: true
+  no-obj-calls: error # Disallow calling global object properties as functions
+  no-regex-spaces: error # Disallow multiple spaces in regular expressions
+  no-sparse-arrays: error # Disallow sparse arrays
+  no-template-curly-in-string: warning # Disallow template literal placeholder syntax in regular strings
+  no-unexpected-multiline: error # Disallow confusing multiline expressions
+  no-unreachable: error # Disallow unreachable code after return, throw, continue, and break statements
+  no-unsafe-finally: error # Disallow control flow statements in finally blocks
+  no-unsafe-negation: error # Disallow negating the left operand of relational operators
+  use-isnan: error # Require calls to isNaN() when checking for NaN
+  valid-typeof: # Enforce comparing typeof expressions against valid strings
+    - error
+    - requireStringLiterals: true
+  # BEST PRACTICES
+  block-scoped-var: error # Enforce the use of variables within the scope they are defined
+  curly: # Enforce consistent brace style for all control statements
+    - error
+    - all
+  dot-location: warning
+  dot-notation: warning
+  eqeqeq: error
+  quard-for-in: error
+  no-case-declarations: error
+  no-div-regex: error
+  no-else-return: error
+  no-empty-function: error
+  no-empty-pattern: error
+  no-eq-null: error
+  no-eval: error
+  no-extend-native: warning
+  no-extra-bind: error
+  no-extra-label: error
+  no-fallthrough: error
+  
