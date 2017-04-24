@@ -110,6 +110,14 @@ rules: # For a full list of rules and their description visit: http://www.eslint
     - error
     - "any"
   yoda: error # Disallow “Yoda” conditions, e.g. ("red" === color) instead of the regular (color === "red")
+  no-catch-shadow: error # Disallow catch clause parameters from shadowing variables in the outer scope
+  no-delete-var: error # Disallow deleting variables
+  no-label-var: error # Disallow labels that share a name with a variable
+  no-shadow-restricted-names: error # Disallow identifiers from shadowing restricted names
+  no-undef: error # Disallow the use of undeclared variables unless mentioned in /*global */ comments
+  no-unused-vars: error # Disallow unused variables
+  no-use-before-define: error # Disallow the use of variables before they are defined
+
 
 
 
