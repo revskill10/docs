@@ -46,7 +46,7 @@ cd ~/<Your Developer Folder>/<Your Enrian Dev Folder>/
 liftoff
 ```
 
-When prompeted:
+When prompted:
 
 - enter new project name (e.g. **TestApp**)
 - enter prefix in the format: **EPTA** (**E**nrian **P**artners **T**est **A**pp)
@@ -56,7 +56,7 @@ After liftoff creates a project a Xcode will be opened with the newly created pr
 ![Signing](./ios-docs/img/signing.png)
 
 #### Project Warnings
-After using a Liftoff for creating a project a warning can be shown after the creation with suggestion to enable recommended compiler/project settings. Proceed with **Perform Changes** as current Liftoff configuration does not include latest LLVM compiler flags. 
+After using the Liftoff for creating a project a warning can be shown after the creation with suggestion to enable recommended compiler/project settings. Proceed with **Perform Changes** as current Liftoff configuration does not include latest LLVM compiler flags. 
 
 ## Automating deployment 
 TODO
