@@ -36,7 +36,7 @@ Enrian defaults have following configuration:
 - Initial Git repository and add default `README.md` and `.gitignore`
 - An initial commit is made 
 
-For more see [Enrian Liftoff Configuration]().
+For more see [Enrian Liftoff Configuration](https://github.com/enrian/liftoff-configuration).
 
 ### Usage
 To use Liftoff for creating new projects run `liftoff` command in your `~/<Your Developer Folder>/<Your Enrian Dev Folder>/`.
