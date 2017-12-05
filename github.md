@@ -7,7 +7,7 @@ Before commiting, read something about "git rebase workflow" and "github pull re
 
 2. Branch name should be in format of YOUR_INITIALS-short-description-of-task, eg. PJ-add-draft-of-development-docs
 
-3. Commit message format we use is nicely describede in [angular contribution guide]( https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit). If not sure, take a look into history of code to see it in practical use, its not hard.
+3. Commit message format we use is nicely described in [angular contribution guide]( https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit). If not sure, take a look into history of code to see it in practical use, its not hard.
   - if commit is fixing a LightHouse issue, the commit message should include text LH-ISSUE_NUMBER, eg. LH-394
   - if commit is fixing a Sentry issue, the commit message should include text SN-ISSUE_NUMBER, eg. SN-44
   - if commit is for a Trello card, a link to that card would be fine
