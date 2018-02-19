@@ -17,7 +17,7 @@ One Paragraph of project description goes here. What does the project do and who
 * Documentation - [Confluence]()
 * Project management - [Jira / Trello /...]()
 
-###Project environments: 
+### Project environments: 
 * Development - [DEV]()
 * Stage - [STG]()
 * Production - [PROD]()
