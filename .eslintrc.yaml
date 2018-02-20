@@ -27,7 +27,7 @@ rules: # For a full list of rules and their description visit: http://www.eslint
   no-inner-declarations: # Disallow variable and function declarations in nested blocks
     - error
     - "both"
-  no-invalid-regex: error # Disallow invalid regular expression strings in RegExp constructors
+  no-invalid-regexp: error # Disallow invalid regular expression strings in RegExp constructors
   no-irregular-whitespace: #  Disallow irregular whitespace outside of strings and comments
     - error
     - skipStrings: true
@@ -53,7 +53,7 @@ rules: # For a full list of rules and their description visit: http://www.eslint
   dot-location: 1 # Enforce consistent newlines after dots not before
   dot-notation: 1 # Enforce dot notation whenever possible when calling object keys
   eqeqeq: error # Require the use of === and !==
-  quard-for-in: error # Require for-in loops to include an if statement
+  guard-for-in: error # Require for-in loops to include an if statement
   no-case-declarations: error # Disallow lexical declarations in case clauses
   no-div-regex: error # Disallow division operators explicitly at the beginning of regular expressions
   no-else-return: error  # Disallow else blocks after return statements in if statements
