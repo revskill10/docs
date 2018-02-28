@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs'
+
+platform :ios, '<%= deployment_target %>'
+
+# Comment this line if you do NOT use Swift
+use_frameworks!
+
+target '<%= project_name %>' do
+  # Application Pods
+end
+
+abstract_target :unit_tests do
+  target '<%= test_target_name %>'
+  # Test Pods
+end

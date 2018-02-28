@@ -1,0 +1,12 @@
+company: Enrian Partners, s.r.o
+company_identifier: com.Enrian
+prefix: ""
+test_target_name: UnitTests
+warnings_as_errors: false
+enable_settings: false
+run_script_phases: []
+project_template: swift
+templates:
+  - README.md: README.md
+  - gitignore: .gitignore
+  
