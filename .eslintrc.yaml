@@ -1,4 +1,9 @@
 ---
+env: # SET ENVIRONMENT GLOBAL VARIABLES ONLY AS NEEDED, e.g. DELETE node ENV from projects not using Node.js
+    browser: false # Allow global js variables used in browsers (e.g. document, window, etc.)
+    node: false # Allow global js variables used in node.js
+    jquery: false # Allow global js variables used in jQuery (e.g. $)
+    
 rules: # For a full list of rules and their description visit: http://www.eslint.org/docs/rules
   # POSSIBLE ERROR RULES
   no-console: off # !!!SET THIS TO error FOR PROD CODE!!! Disallow the use of console methods
@@ -7,10 +12,6 @@ rules: # For a full list of rules and their description visit: http://www.eslint
   strict: # Require the "use strict" statement on the function level, can eventually be changed to "global" to be used in the global scope
     - error
     - "function"
-  env: # SET ENVIRONMENT GLOBAL VARIABLES ONLY AS NEEDED, e.g. DELETE node ENV from projects not using Node.js
-    browser: false # Allow global js variables used in browsers (e.g. document, window, etc.)
-    node: false # Allow global js variables used in node.js
-    jquery: false # Allow global js variables used in jQuery (e.g. $)
   no-cond-assign: error # Disallow assignment operators in conditional expressions
   no-constant-condition: error # Disallow constant expressions in conditions
   no-control-regex: 1 # Disallow control characters in regular expressions
