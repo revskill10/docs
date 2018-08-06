@@ -11,3 +11,4 @@
 | Legito | https://www.legito.com | Feedback.me | Paid | filip.ambroz | Shared login | filip.ambroz@enrian.com | legal document templates
 | Litmus | https://litmus.com | Feedback.me | Paid | filip.ambroz | Shared login | filip.ambroz@enrian.com | email templates test tool
 | Balsamiq | https://balsamiq.com/ | SB, SME | Paid | jan.zahradnik | | | a wireframing and mock up tool
+| Cypress.io dashboard | https://dashboard.cypress.io | NGI | Paid | jaromir.cervenka | GitHub | your GitHub or registration@enrian.com | end-to-end testing platform. To be added to Enrian org contact martin.nemec, filip.ambroz or michal.szajter
