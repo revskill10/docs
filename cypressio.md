@@ -103,7 +103,7 @@ and then use `npm run cy:run` or `yarn cy:run` from command line or CI configura
 
 ### DO's
 
-- use `cy.get([data-test="SELECTOR"])` for selectors as these are least insulated from changes
+- use `cy.get([data-test="SELECTOR"])` for selectors as these are most insulated from changes
 - use aliases for repeated selectors
 
   ```javascript
